@@ -9,4 +9,3 @@ func main() {
 		fmt.Println("Hello Self Executing World")
 	}()
 }
-git
