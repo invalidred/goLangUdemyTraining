@@ -19,12 +19,16 @@ func main() {
 	sort.Sort(sort.Reverse(sort.StringSlice(s)))
 	fmt.Println(s)
 
+	i := []int{1, 3, 5, 0, 6, 10, 2}
+	fmt.Println(i)
+	sort.Ints(i)
+	fmt.Println(i)
+	sort.Sort(sort.Reverse(sort.IntSlice(i)))
+	fmt.Println(i)
+
 	//studyGroup := people{"Zeno", "John", "Al", "Jenny", "Abdul"}
 	// sort.Sort(studyGroup)
 	// fmt.Println(studyGroup)
 	// fmt.Println(sort.Reverse(studyGroup))
 
-	// i := []int{1, 3, 5, 0, 6, 10, 2}
-	// // fmt.Println(sort.Ints(i))
-	// fmt.Println(sort.Reverse(sort.IntSlice(i)))
 }
