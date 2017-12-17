@@ -26,9 +26,10 @@ func main() {
 	sort.Sort(sort.Reverse(sort.IntSlice(i)))
 	fmt.Println(i)
 
-	//studyGroup := people{"Zeno", "John", "Al", "Jenny", "Abdul"}
-	// sort.Sort(studyGroup)
-	// fmt.Println(studyGroup)
-	// fmt.Println(sort.Reverse(studyGroup))
-
+	studyGroup := people{"Zeno", "John", "Al", "Jenny", "Abdul"}
+	fmt.Println(studyGroup)
+	sort.Sort(studyGroup)
+	fmt.Println(studyGroup)
+	sort.Sort(sort.Reverse(studyGroup))
+	fmt.Println(studyGroup)
 }
